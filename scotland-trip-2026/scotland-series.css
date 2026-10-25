@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@700&display=swap');
+:root{--forest:#123B23;--mint:#E2F0E6;--chalk:#FAFAF5;--edge:#DFE4DA;--hairline:#E2E6DC;--ivory:#F8F5EC;--body-2:#3C5A46;--muted:#7E8F81;--route:#1E5C33;--sage:#D3E5D8;--navy:var(--forest);--cream:var(--mint);--gold:var(--route);--green:var(--route);--ink:var(--forest);}
+html,body{background:var(--mint)!important;color:var(--forest)!important;font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif!important}
+h1,h2,h3,h4,h5,h6{font-family:Lora,Georgia,"Times New Roman",serif!important;font-weight:700!important;letter-spacing:-.022em;color:var(--forest)}
+header{background:var(--forest)!important;color:var(--ivory)!important}
+header h1,header h2,header h3,header p,header b,header strong{color:var(--ivory)!important}
+header a:not(.btn),header .back{color:var(--ivory)!important}
+header .back{text-decoration:underline;text-underline-offset:3px}
+nav,.section-menu{background:var(--chalk)!important;border-color:var(--hairline)!important;box-shadow:0 2px 0 var(--edge)!important}
+nav a,.section-menu a{color:var(--route)!important}
+a{color:var(--route);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{color:var(--forest)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--forest)!important;outline-offset:2px!important}
+.card,.daycard,.audio-guide-panel,.audio-fixed,.booking-details,.day-start-planner,.ig-item,.warn,.note,.danger,.tag,.day-link,.section-menu a,.today-table,.today-table th,.today-table td{background:var(--chalk)!important;border:0!important;border-radius:13px!important;box-shadow:0 2px 0 var(--edge)!important;color:var(--forest)!important}
+.card *, .daycard *, .audio-guide-panel *, .booking-details *, .day-start-planner *, .ig-item *{border-color:var(--hairline)}
+.card,.daycard{border-left:0!important}
+.daylink h3,.day-link h3{color:var(--forest)!important}
+.daycard b,.eyebrow,.label,.stat span,small,.tag,.small,.day-meta,.planner-note{font-family:Inter,system-ui,sans-serif!important;letter-spacing:.04em}
+.daycard b,.eyebrow,.day-link .label{color:var(--body-2)!important;font-weight:800!important;letter-spacing:.2em!important;text-transform:uppercase!important}
+.small,.planner-note,.day-meta{color:var(--body-2)!important}
+.tag{background:var(--sage)!important}
+.time{border-left:4px solid var(--route)!important}
+.time.time-fixed,.audio-guide-panel,.day-start-planner,.warn,.note,.danger{background:var(--sage)!important}
+.audio-stop,.today-table td,.today-table th{border-bottom:1px solid var(--hairline)!important}
+.btn,.audio-btn:not(.secondary),.food-links a,.hotel-link,.booking-actions a{background:var(--forest)!important;color:var(--ivory)!important;border:0!important;border-radius:9px!important;text-decoration:none!important}
+.btn:hover,.audio-btn:not(.secondary):hover,.food-links a:hover,.hotel-link:hover,.booking-actions a:hover{background:#0D2C1A!important;color:var(--ivory)!important}
+.audio-btn.secondary,.copy-btn{background:transparent!important;color:var(--forest)!important;border:1px solid var(--forest)!important;border-radius:9px!important}
+.audio-btn.secondary:hover,.copy-btn:hover{background:var(--sage)!important}
+.section-menu a{border-radius:9px!important;background:var(--sage)!important;text-decoration:none!important}
+.section-menu a:hover{background:var(--mint)!important}
+input,select,textarea{font-family:Inter,system-ui,sans-serif!important;color:var(--forest)!important;background:var(--chalk)!important;border:1px solid var(--hairline)!important;border-radius:9px!important}
+.today-table{border-collapse:separate!important;border-spacing:0!important}
+.today-table th{background:var(--sage)!important;color:var(--forest)!important}
+.today-table td{background:var(--chalk)!important;color:var(--forest)!important}
+#map{background:#E9EFEA!important;border-radius:13px!important;box-shadow:0 2px 0 var(--edge)!important}
+.leaflet-container{background:#E9EFEA!important}
+.leaflet-tile-pane{filter:saturate(.46) hue-rotate(45deg) brightness(1.07)}
+.leaflet-popup-content-wrapper,.leaflet-control-zoom a{background:var(--chalk)!important;color:var(--forest)!important}
+footer{background:var(--forest)!important;color:var(--ivory)!important}
+footer *{color:var(--ivory)!important}
